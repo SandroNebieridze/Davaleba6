@@ -1,0 +1,68 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background-color: #DDEAF8;
+
+
+}
+
+/* header */
+header {
+    background-color: #1a1919;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header_title {
+    color: #27187F;
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+ul {
+    display: flex;
+}
+
+.active {
+    color: #27187F;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.inactive {
+    color: #758BFD;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.middle_li {
+    margin-inline: 50px;
+}
+
+.search_div {
+    width: 15.3%;
+    background-color: #FFF;
+    border: 3px solid #27187F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.fa-magnifying-glass {
+    font-size: 35px;
+    color: #758BFD;
+}
