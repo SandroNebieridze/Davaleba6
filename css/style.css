@@ -116,3 +116,38 @@ line-height: normal;
     height: 188px;
 }
 
+/* footer */
+footer{
+    background-color: #758BFD;
+    padding: 75px 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+
+    
+.contactinfo{
+    color: #00CAD7;
+font-family: Century Gothic;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px; 
+letter-spacing: 0.2px;
+}
+.mail{
+    color: #FFF;
+font-family: Century Gothic;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px; /* 130.769% */
+letter-spacing: 0.2px;
+
+}
+.payment{
+    display: flex;
+align-items: flex-start;
+}
