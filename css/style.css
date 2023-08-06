@@ -9,7 +9,7 @@
 
 /* header */
 header {
-    background-color: #1a1919;
+    background-color: #FFF;
     height: 160px;
     display: flex;
     justify-content: space-around;
@@ -66,3 +66,53 @@ ul {
     font-size: 35px;
     color: #758BFD;
 }
+/* section */
+section{
+    padding: 115px 98px;
+   
+
+}
+
+.section_title{
+    color: #27187F;
+font-family: Ubuntu;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 68px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 90%;
+    height: 822px;
+    margin: auto;
+}
+
+figure{
+    width: 30%;
+    padding: 33px 30px;
+    background-color:  #FFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+figcaption{
+    color: #133B3A;
+font-family: Ubuntu;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.figure_image{
+    width: 85%;
+    height: 188px;
+}
+
